@@ -3,8 +3,18 @@ import styled from 'styled-components'
 export const Container = styled.header`
    margin-top: 100px;
    display: flex;
+
+   @media (max-width: 650px) {
+      flex-direction: column;
+      margin-top: 50px;
+   }
 `
 
+export const ContainerText = styled.div`
+   @media (max-width: 650px) {
+      text-align: center;
+   }
+`
 export const Title = styled.h1`
    font-weight: 900;
    font-size: 3.4rem;
@@ -27,5 +37,13 @@ export const Button = styled.button`
    margin-top: 10px;
    &:hover {
       cursor: pointer;
+   }
+`
+
+export const Image = styled.img`
+   width: 60%;
+
+   @media (max-width: 650px) {
+      width: 90%;
    }
 `

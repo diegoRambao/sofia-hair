@@ -7,4 +7,9 @@ export const Container = styled.div`
    column-gap: 3rem;
    row-gap: 2rem;
    margin-top: 70px;
+
+   @media (max-width: 650px) {
+      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+      margin-top: 50px;
+   }
 `

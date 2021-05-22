@@ -8,4 +8,7 @@ export const List = styled.div`
 `
 export const Image = styled.img`
    max-width: 100px;
+   @media (max-width: 650px) {
+      max-width: 50px;
+   }
 `
