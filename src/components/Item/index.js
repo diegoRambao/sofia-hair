@@ -10,7 +10,7 @@ export function Item({ product }) {
             <Title>{name}</Title>
          </ContainerInfo>
          <Button
-            href={`https://api.whatsapp.com/send?phone=3246067896&text=Hola Sofia Hair, me intereza cotizar el producto:  ${name}`}
+            href={`https://api.whatsapp.com/send?phone=573246067896&text=Hola Sofia Hair, me intereza cotizar el producto:  ${name}`}
             target="_blank"
          >
             Cotizar
