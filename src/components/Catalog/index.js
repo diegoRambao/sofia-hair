@@ -3,7 +3,7 @@ import { ListOfProduct } from '../ListOfProduct'
 
 export function Catalog() {
    return (
-      <Container>
+      <Container id="catalog">
          <Title>Catálogo</Title>
          <Paragraph>Nuestros productos de mejor calidad</Paragraph>
          <ListOfProduct />

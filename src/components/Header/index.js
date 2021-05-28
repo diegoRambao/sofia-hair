@@ -1,5 +1,6 @@
 import { Container, ContainerText, Title, Paragraph, Button, Image } from './style'
 import homeImg from '../../assets/images/home.svg'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 export function Header() {
    return (
@@ -10,7 +11,9 @@ export function Header() {
                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
                standard dummy text ever.
             </Paragraph>
-            <Button>Ver catalogo</Button>
+            <AnchorLink href="#catalog" offset="100">
+               <Button>Ver catalogo</Button>
+            </AnchorLink>
          </ContainerText>
          <Image src={homeImg} alt="Home" />
       </Container>
